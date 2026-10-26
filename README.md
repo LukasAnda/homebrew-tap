@@ -1,9 +1,11 @@
-# Homebrew tap for Swiftshot
-
-[Swiftshot](https://github.com/LukasAnda/swiftshot) renders App Store screenshots from SwiftUI and UIKit previews without booting a simulator.
+# Homebrew tap
 
 ```sh
-brew install lukasanda/swiftshot/swiftshot
+brew install lukasanda/tap/swiftshot
 ```
 
-Requires an Apple silicon Mac with Xcode 26.6 or 27.x. The formula is updated automatically on every Swiftshot release.
+| formula | |
+|---|---|
+| [swiftshot](https://github.com/LukasAnda/swiftshot) | Screenshots of SwiftUI and UIKit previews without booting a simulator. Apple silicon Mac, Xcode 26.6 or 27.x. |
+
+Formulas are updated automatically on every release.
