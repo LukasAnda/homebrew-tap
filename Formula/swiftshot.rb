@@ -1,8 +1,8 @@
 class Swiftshot < Formula
   desc "Screenshots of SwiftUI and UIKit previews without booting a simulator"
   homepage "https://github.com/LukasAnda/swiftshot"
-  url "https://github.com/LukasAnda/swiftshot/releases/download/v0.3.0/swiftshot-macos-arm64.tar.gz"
-  sha256 "932f70e670e941f5153e2bc3d31fe62c3135b2c585bb453ad18fc573093eeaf1"
+  url "https://github.com/LukasAnda/swiftshot/releases/download/v0.4.0/swiftshot-macos-arm64.tar.gz"
+  sha256 "43d477dc3b15b8930dfeaef39115e28122c73e7e525ec76d5fa21f60bfa2c0c1"
   license "AGPL-3.0-only"
 
   depends_on arch: :arm64
