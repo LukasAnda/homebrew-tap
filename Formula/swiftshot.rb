@@ -1,23 +1,23 @@
 # The Homebrew formula (LukasAnda/homebrew-tap), written from this template by the release
-# workflow: 0.8.0, https://github.com/LukasAnda/swiftshot/releases/download/v0.8.0 (the release download folder) and the two archives' checksums.
+# workflow: 0.7.0, https://github.com/LukasAnda/swiftshot/releases/download/v0.7.0 (the release download folder) and the two archives' checksums.
 class Swiftshot < Formula
   desc "Screenshot tests and store screenshots from SwiftUI, UIKit and Compose previews"
   homepage "https://github.com/LukasAnda/swiftshot"
-  version "0.8.0"
+  version "0.7.0"
   license "AGPL-3.0-only"
 
   # Apple silicon Mac: iOS, Android, desktop and Compose Multiplatform.
   on_macos do
-    url "https://github.com/LukasAnda/swiftshot/releases/download/v0.8.0/swiftshot-macos-arm64.tar.gz"
-    sha256 "05ba2e35758cdf71855ef6568d26c0a196f2fa714f7f48d2c339ceb980c24156"
+    url "https://github.com/LukasAnda/swiftshot/releases/download/v0.7.0/swiftshot-macos-arm64.tar.gz"
+    sha256 "edf46d167a6b6e2c4c8faab19b898b14c9e1ca6ce7d45fa3da03bbc5688afdf2"
     depends_on arch: :arm64
     depends_on xcode: "26.6"
   end
 
   # Linux: Android, desktop and the Android and desktop targets of Compose Multiplatform.
   on_linux do
-    url "https://github.com/LukasAnda/swiftshot/releases/download/v0.8.0/swiftshot-android.tar.gz"
-    sha256 "d6e2c7fc4bbd42bc04e114c39f8fa3bb664506df85fc83f66a406b565c568535"
+    url "https://github.com/LukasAnda/swiftshot/releases/download/v0.7.0/swiftshot-android.tar.gz"
+    sha256 "a35f6eb817c360bf548ccfe715c02048b5de5576a825718052c9209f78590d1f"
     depends_on "openjdk@21"
   end
 
